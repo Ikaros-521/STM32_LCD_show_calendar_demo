@@ -10,7 +10,6 @@
 /* 显示时间，index特殊处理 */
 void show_index_time( u8 index, _calendar_obj calendar_temp );
 
-
 int main( void )
 {
 	/* 按键返回值 */
@@ -73,7 +72,8 @@ int main( void )
 			{
 				calendar_temp = calendar;
 			}
-			/* 退出修改 else if(0 == index) */
+			/* 退出修改 */
+			else if(0 == index)
 			{
 				calendar = calendar_temp;
 				RTC_Set( calendar_temp.w_year, calendar_temp.w_month, calendar_temp.w_date, calendar_temp.hour, calendar_temp.min, calendar_temp.sec );

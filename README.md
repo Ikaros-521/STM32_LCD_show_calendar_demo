@@ -1,11 +1,17 @@
-﻿@[TOC](目录)
-# 前言
+﻿# 前言
+
 开发板：正点原子 STM32F103 精英版
+
 语言：C语言
+
 开发环境：Keil5
+
 代码下载：[码云](https://gitee.com/ikaros-521/STM32_LCD_show_calendar_demo)  [GitHub](https://github.com/Ikaros-521/STM32_LCD_show_calendar_demo)
+
 代码参考：正点原子 源码RTC实验例程
+
 # 效果图
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210412152503856.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lrYXJvc181MjE=,size_16,color_FFFFFF,t_70)
 
 ![5M的动图 给我画质都压成渣渣了](https://img-blog.csdnimg.cn/20210412152444541.gif#pic_center)

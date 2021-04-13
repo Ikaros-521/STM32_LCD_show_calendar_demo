@@ -10,6 +10,14 @@
 
 代码参考：正点原子 源码RTC实验例程
 
+**功能介绍**：
+
+1、LCD显示年月日 时分秒 星期 信息。
+
+2、KEY0 进入修改模式，分别可以修改 年月日时分秒（处于修改状态下，对应值会变红），最后退出修改模式。
+
+3、在KEY0的修改模式下，按KEY1为数字+1，按KEY_UP为数字-1。
+
 # 效果图
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210412154533570.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lrYXJvc181MjE=,size_16,color_FFFFFF,t_70)
